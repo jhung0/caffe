@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 
-./build/tools/caffe train \
-    --solver=models/bvlc_reference_caffenet/solver.prototxt
+/home/ubuntu/caffe/build/tools/caffe train \
+    --solver=/home/ubuntu/caffe/models/bvlc_alexnet/solver.prototxt #reference_caffenet/solver.prototxt
